@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo_Next初步架构资源链接]]></title>
+    <url>%2F2018%2F07%2F19%2FHexo_Next%E5%88%9D%E6%AD%A5%E6%9E%B6%E6%9E%84%E8%B5%84%E6%BA%90%E9%93%BE%E6%8E%A5%2F</url>
+    <content type="text"><![CDATA[这是一篇新手上手架构自己博客的第一步，文中内容还未完全整理提取，现将博客构建主要参考链接放在该博文中。您可以通过该博文了解： 怎么从无到有建立一个属于自己的博客 怎么设置相应参数，安装相应插件，完善博客 进一步阅读的内容链接 Quick Start丢掉你的脑子，Copy is Ok!!!More info: 博客搭建GitHubPages + Hexo + Hueman 博客搭建GitHubPages + Hexo + Next 详细配置 进一步阅读Next主题文档介绍More info: Next主题 Hexo配置文档介绍More info: Hexo框架 Hexo架构原理More info: 原理浅析 原理探究 How work Markdown博文撰写More info: 列举编辑器 推荐编辑器 Git安装及使用More info: 书籍 博文 安装、配置问题相关npm install警告More info: npm警告]]></content>
+      <categories>
+        <category>Hexo_Next博客架构</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F07%2F19%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>

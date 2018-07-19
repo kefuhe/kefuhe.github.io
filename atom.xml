@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-19T09:46:48.943Z</updated>
+  <updated>2018-07-19T10:38:20.271Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo_Next初步架构资源链接</title>
+    <link href="http://yoursite.com/2018/07/19/Hexo_Next%E5%88%9D%E6%AD%A5%E6%9E%B6%E6%9E%84%E8%B5%84%E6%BA%90%E9%93%BE%E6%8E%A5/"/>
+    <id>http://yoursite.com/2018/07/19/Hexo_Next初步架构资源链接/</id>
+    <published>2018-07-19T10:06:25.000Z</published>
+    <updated>2018-07-19T10:38:20.271Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是一篇新手上手架构自己博客的第一步，文中内容还未完全整理提取，现将博客构建主要参考链接放在该博文中。您可以通过该博文了解：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;怎么从无到有建立一个属于自己的博客&lt;/li&gt;
+&lt;li&gt;怎么设置相应参数，安装相应插件，完善博客&lt;/li&gt;
+&lt;li&gt;进一步阅读的内容链接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;丢掉你的脑子，Copy-is-Ok&quot;&gt;&lt;a href=&quot;#丢掉你的脑子，Copy-is-Ok&quot; class=&quot;headerlink&quot; title=&quot;丢掉你的脑子，Copy is Ok!!!&quot;&gt;&lt;/a&gt;丢掉你的脑子，Copy is Ok!!!&lt;/h3&gt;&lt;p&gt;More info:&lt;br&gt;        &lt;a href=&quot;https://www.jianshu.com/p/0f5dc1d3d406&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Hueman&lt;/a&gt;&lt;br&gt;        &lt;a href=&quot;https://blog.csdn.net/jack_lin_/article/details/64501293&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Next&lt;/a&gt;&lt;br&gt;        &lt;a href=&quot;https://www.jianshu.com/p/3a05351a37dc&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;详细配置&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;进一步阅读&quot;&gt;&lt;a href=&quot;#进一步阅读&quot; class=&quot;headerlink&quot; title=&quot;进一步阅读&quot;&gt;&lt;/a&gt;进一步阅读&lt;/h2&gt;&lt;h3 id=&quot;Next主题文档介绍&quot;&gt;&lt;a href=&quot;#Next主题文档介绍&quot; class=&quot;headerlink&quot; title=&quot;Next主题文档介绍&quot;&gt;&lt;/a&gt;Next主题文档介绍&lt;/h3&gt;&lt;p&gt;More info: &lt;a href=&quot;http://theme-next.iissnan.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Next主题&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Hexo_Next博客架构" scheme="http://yoursite.com/categories/Hexo-Next%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -43,7 +74,7 @@
     <link href="http://yoursite.com/2018/07/19/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%20Cmd%20Markdown%20%E7%BC%96%E8%BE%91%E9%98%85%E8%AF%BB%E5%99%A8/"/>
     <id>http://yoursite.com/2018/07/19/欢迎使用 Cmd Markdown 编辑阅读器/</id>
     <published>2018-07-19T09:39:25.000Z</published>
-    <updated>2018-07-19T09:44:45.833Z</updated>
+    <updated>2018-07-19T09:46:57.619Z</updated>
     
     <summary type="html">
     
