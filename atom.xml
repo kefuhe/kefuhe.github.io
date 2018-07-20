@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-20T02:48:48.627Z</updated>
+  <updated>2018-07-20T02:53:47.950Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo_Next初步架构资源链接</title>
+    <title>编程相关概念解惑</title>
     <link href="http://yoursite.com/2018/07/20/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
     <id>http://yoursite.com/2018/07/20/编程相关概念解惑/</id>
     <published>2018-07-20T02:27:25.000Z</published>
-    <updated>2018-07-20T02:48:48.627Z</updated>
+    <updated>2018-07-20T02:53:47.950Z</updated>
     
     <summary type="html">
     
@@ -35,7 +35,7 @@
     
     </summary>
     
-      <category term="编程相关概念解惑" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
+      <category term="编程闲谈" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E9%97%B2%E8%B0%88/"/>
     
     
       <category term="编程概念" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B%E6%A6%82%E5%BF%B5/"/>
