@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-20T02:22:50.126Z</updated>
+  <updated>2018-07-20T02:48:48.627Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo_Next初步架构资源链接</title>
+    <link href="http://yoursite.com/2018/07/20/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
+    <id>http://yoursite.com/2018/07/20/编程相关概念解惑/</id>
+    <published>2018-07-20T02:27:25.000Z</published>
+    <updated>2018-07-20T02:48:48.627Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;非计算机专业，编程缺乏练习，经常出现一些粗浅的概念，却不能明了的解释和阐明。因此在这里列一些最近感觉理解更加清晰的概念进行简要阐释，后续待进一步完善：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;插件本质是什么？&lt;/li&gt;
+&lt;li&gt;配置文件的格式选择以及作用？&lt;/li&gt;
+&lt;li&gt;引擎指什么？&lt;/li&gt;
+&lt;li&gt;事件驱动怎么理解？
+    
+    </summary>
+    
+      <category term="编程相关概念解惑" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
+    
+    
+      <category term="编程概念" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo_Next初步架构资源链接</title>
