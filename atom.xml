@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-20T02:53:47.950Z</updated>
+  <updated>2018-07-20T03:08:25.835Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/07/20/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
     <id>http://yoursite.com/2018/07/20/编程相关概念解惑/</id>
     <published>2018-07-20T02:27:25.000Z</published>
-    <updated>2018-07-20T02:53:47.950Z</updated>
+    <updated>2018-07-20T03:08:25.835Z</updated>
     
     <summary type="html">
     
@@ -31,7 +31,10 @@
 &lt;li&gt;插件本质是什么？&lt;/li&gt;
 &lt;li&gt;配置文件的格式选择以及作用？&lt;/li&gt;
 &lt;li&gt;引擎指什么？&lt;/li&gt;
-&lt;li&gt;事件驱动怎么理解？
+&lt;li&gt;事件驱动怎么理解？&lt;/li&gt;
+&lt;li&gt;回调函数的概念&lt;/li&gt;
+&lt;li&gt;观察者模式&lt;/li&gt;
+&lt;li&gt;编程范式
     
     </summary>
     
