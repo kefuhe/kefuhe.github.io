@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-19T10:40:04.104Z</updated>
+  <updated>2018-07-20T02:22:50.126Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/07/19/Hexo_Next%E5%88%9D%E6%AD%A5%E6%9E%B6%E6%9E%84%E8%B5%84%E6%BA%90%E9%93%BE%E6%8E%A5/"/>
     <id>http://yoursite.com/2018/07/19/Hexo_Next初步架构资源链接/</id>
     <published>2018-07-19T10:06:25.000Z</published>
-    <updated>2018-07-19T10:40:04.104Z</updated>
+    <updated>2018-07-20T02:22:50.126Z</updated>
     
     <summary type="html">
     
@@ -33,7 +33,7 @@
 &lt;li&gt;进一步阅读的内容链接&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;丢掉你的脑子，Copy-is-Ok&quot;&gt;&lt;a href=&quot;#丢掉你的脑子，Copy-is-Ok&quot; class=&quot;headerlink&quot; title=&quot;丢掉你的脑子，Copy is Ok!!!&quot;&gt;&lt;/a&gt;丢掉你的脑子，Copy is Ok!!!&lt;/h3&gt;&lt;p&gt;More info:&lt;br&gt;        &lt;a href=&quot;https://www.jianshu.com/p/0f5dc1d3d406&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Hueman&lt;/a&gt;&lt;br&gt;        &lt;a href=&quot;https://blog.csdn.net/jack_lin_/article/details/64501293&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Next&lt;/a&gt;&lt;br&gt;        &lt;a href=&quot;https://www.jianshu.com/p/3a05351a37dc&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;详细配置&lt;/a&gt;&lt;br&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;丢掉你的脑子，Copy-is-Ok&quot;&gt;&lt;a href=&quot;#丢掉你的脑子，Copy-is-Ok&quot; class=&quot;headerlink&quot; title=&quot;丢掉你的脑子，Copy is Ok!!!&quot;&gt;&lt;/a&gt;丢掉你的脑子，Copy is Ok!!!&lt;/h3&gt;&lt;p&gt;More info:&lt;br&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;a href=&quot;https://www.jianshu.com/p/0f5dc1d3d406&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Hueman&lt;/a&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;a href=&quot;https://blog.csdn.net/jack_lin_/article/details/64501293&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;博客搭建GitHubPages + Hexo + Next&lt;/a&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;a href=&quot;https://www.jianshu.com/p/3a05351a37dc&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;详细配置&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
