@@ -389,12 +389,43 @@
       
         
           
-            <h1 id="1-使用exec函数"><a href="#1-使用exec函数" class="headerlink" title="1. 使用exec函数"></a>1. 使用exec函数</h1><p>python 3：<br>exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值</p>
+            <h1 id="使用exec函数"><a href="#使用exec函数" class="headerlink" title="使用exec函数"></a>使用exec函数</h1><p>python 3：<br>exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="string">'buf'</span></span><br><span class="line">exec(<span class="string">"%s = %d"</span> % (x, <span class="number">2</span>))</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>foo = <span class="string">"bar"</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>exec(foo + <span class="string">" = 'something else'"</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">print</span> bar</span><br><span class="line">something <span class="keyword">else</span></span><br></pre></td></tr></table></figure>
-<p>在python 2 当中，exec 是一个语句， 只能使用下面的方法：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="string">'buffalo'</span>    </span><br><span class="line"><span class="keyword">exec</span> <span class="string">"%s = %d"</span> % (x,<span class="number">2</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="2-适用hasattr-、setattr-和delattr"><a href="#2-适用hasattr-、setattr-和delattr" class="headerlink" title="2. 适用hasattr()、setattr()和delattr()"></a>2. 适用hasattr()、setattr()和delattr()</h1><h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1>
+<p>python 2:<br>exec 是一个语句， 只能使用下面的方法：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x=<span class="string">'buffalo'</span></span><br><span class="line"><span class="keyword">exec</span> <span class="string">"%s = %d"</span> % (x,<span class="number">2</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="使用locals"><a href="#使用locals" class="headerlink" title="使用locals()"></a>使用locals()</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>var = <span class="string">"This is a string"</span>  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>varName = <span class="string">'var'</span>  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s= locals()[varName]  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s  </span><br><span class="line"><span class="string">'This is a string'</span>  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s2=vars()[varName]  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s2  </span><br><span class="line"><span class="string">'This is a string'</span>  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s3=eval(varName)  </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>s3  </span><br><span class="line"><span class="string">'This is a string'</span></span><br></pre></td></tr></table></figure>
+<p>locals是python的内置函数，他可以以字典的方式去访问局部和全局变量。</p>
+<p>python里面用名字空间记录着变量，就像javascript的window一样，他记录着各种全局变量。</p>
+<p>每个模块，每个函数都有自己的名字空间，记录着变量，常量，类的命名和值。</p>
+<p>就像JS一样，当python在使用变量时，会按照下面的步骤去搜索：</p>
+<ul>
+<li>函数或类的局部变量。</li>
+<li>全局变量。</li>
+<li>内置变量。</li>
+</ul>
+<p>以上三个步骤，其中一步骤找到对应的变量，就不会再往下找。如果在这三个步骤都找不到，就会抛出异常。</p>
+<p>locals与globals的区别</p>
+<ul>
+<li>locals()是只读的。globals()不是。这里说的只读，是值对于原有变量的只读。其实还可以对locals()赋值的。</li>
+<li>globals返回的是当前模块的全局变量 locals返回的是局部变量。注意，locals返回的是当前所在最小命名空间的局部变量的一个拷贝。</li>
+</ul>
+<p>体验locals</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">list1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">locals()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在全局中使用locals，会打印出list1和__builtins__、__name__、__doc__、__package__  </span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">(args)</span>:</span></span><br><span class="line">    x=<span class="number">1</span></span><br><span class="line">    <span class="keyword">print</span> locals()</span><br><span class="line"></span><br><span class="line">foo(<span class="number">123</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#将会得到 &#123;'args':123,'x':1&#125;</span></span><br></pre></td></tr></table></figure>
+<h1 id="使用vars"><a href="#使用vars" class="headerlink" title="使用vars()"></a>使用vars()</h1><p>本函数是实现返回对象object的属性和属性值的字典对象。如果默认不输入参数，就打印当前调用位置的属性和属性值，相当于locals()的功能。如果有参数输入，就只打印这个参数相应的属性和属性值。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#vars()</span></span><br><span class="line"></span><br><span class="line">print(vars())</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span>:</span></span><br><span class="line">    a = <span class="number">1</span></span><br><span class="line">print(vars(Foo))</span><br><span class="line"></span><br><span class="line">foo = Foo()</span><br><span class="line">print(vars(foo))</span><br></pre></td></tr></table></figure>
+<h1 id="使用eval-函数"><a href="#使用eval-函数" class="headerlink" title="使用eval()函数"></a>使用eval()函数</h1><p>eval()函数十分强大，官方demo解释为：将字符串str当成有效的表达式来求值并返回计算结果。<br>结合math当成一个计算器很好用。<br>其他用法，可以把list,tuple,dict和string相互转化。见下例子：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">"[[1,2], [3,4], [5,6], [7,8], [9,0]]"</span></span><br><span class="line">b = eval(a)</span><br><span class="line">b</span><br><span class="line">Out[<span class="number">3</span>]: [[<span class="number">1</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">4</span>], [<span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>], [<span class="number">9</span>, <span class="number">0</span>]]</span><br><span class="line">type(b)</span><br><span class="line">Out[<span class="number">4</span>]: list</span><br><span class="line">a = <span class="string">"&#123;1: 'a', 2: 'b'&#125;"</span></span><br><span class="line">b = eval(a)</span><br><span class="line">b</span><br><span class="line">Out[<span class="number">7</span>]: &#123;<span class="number">1</span>: <span class="string">'a'</span>, <span class="number">2</span>: <span class="string">'b'</span>&#125;</span><br><span class="line">type(b)</span><br><span class="line">Out[<span class="number">8</span>]: dict</span><br><span class="line">a = <span class="string">"([1,2], [3,4], [5,6], [7,8], (9,0))"</span></span><br><span class="line">b = eval(a)</span><br><span class="line">b</span><br><span class="line">Out[<span class="number">11</span>]: ([<span class="number">1</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">4</span>], [<span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>], (<span class="number">9</span>, <span class="number">0</span>))</span><br></pre></td></tr></table></figure>
+<p>强大的函数有代价。安全性是其最大的缺点。</p>
+<p>想一想这种使用环境：需要用户输入一个表达式，并求值。</p>
+<p>如果用户恶意输入，例如：</p>
+<p><strong>import</strong>(‘os’).system(‘dir’)</p>
+<p>那么eval()之后，你会发现，当前目录文件都会展现在用户前面。</p>
+<p>那么继续输入：</p>
+<p>open(‘文件名’).read()</p>
+<p>代码都给人看了。获取完毕，一条删除命令，文件消失。哭吧！</p>
+<h1 id="使用hasattr-、setattr-和delattr"><a href="#使用hasattr-、setattr-和delattr" class="headerlink" title="使用hasattr()、setattr()和delattr()"></a>使用hasattr()、setattr()和delattr()</h1><h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p>[1] <code>https://www.cnblogs.com/hwy89289709/p/6934822.html</code><br>[2] <code>https://blog.csdn.net/rentian1/article/details/79437863</code></p>
+
           
         
       
@@ -599,6 +630,150 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/20/学习态度/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ke Fuhe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="最晚的开始">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/20/学习态度/" itemprop="url">学习态度</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-20T10:27:25+08:00">
+                2018-07-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习闲谈/" itemprop="url" rel="index">
+                    <span itemprop="name">学习闲谈</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="1-学习心态"><a href="#1-学习心态" class="headerlink" title="1. 学习心态"></a>1. 学习心态</h1><p>&emsp;&emsp;学习切忌浅尝辄止和贪多，学习的过程中一定要弄懂一个概念，再看新知识。或者，也可以对于需要使用的内容，先掌握个大概，先上手使用，再慢慢弄懂。很多知识都是这样需要一个时间的间隔，才能慢慢弄懂。<br>对于工具，一定要先示例运行，多跑几次，然后再慢慢查，做笔记，拓展。这才是学工具的一个合理的路径。</p>
+<p>对于其它概念性知识点，一定不能急，每次对于概念的新理解，都要做笔记，将内容整理成自己可以理解的内容，不能总是不整理就囫囵吞枣的接受。这样其实自己是没有进行思考和咀嚼的，这必然导致以后发现这些知识自己又不知道。其实只是当时没有完全搞懂而已。</p>
+<p>再者，知识是有一个遗忘周期的，一定要顶起复习。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/20/编程相关概念解惑/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -708,150 +883,6 @@
             </a>
           </div>
           <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/20/学习态度/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ke Fuhe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="最晚的开始">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/20/学习态度/" itemprop="url">学习态度</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-20T10:27:25+08:00">
-                2018-07-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习闲谈/" itemprop="url" rel="index">
-                    <span itemprop="name">学习闲谈</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="1-学习心态"><a href="#1-学习心态" class="headerlink" title="1. 学习心态"></a>1. 学习心态</h1><p>&emsp;&emsp;学习切忌浅尝辄止和贪多，学习的过程中一定要弄懂一个概念，再看新知识。或者，也可以对于需要使用的内容，先掌握个大概，先上手使用，再慢慢弄懂。很多知识都是这样需要一个时间的间隔，才能慢慢弄懂。<br>对于工具，一定要先示例运行，多跑几次，然后再慢慢查，做笔记，拓展。这才是学工具的一个合理的路径。</p>
-<p>对于其它概念性知识点，一定不能急，每次对于概念的新理解，都要做笔记，将内容整理成自己可以理解的内容，不能总是不整理就囫囵吞枣的接受。这样其实自己是没有进行思考和咀嚼的，这必然导致以后发现这些知识自己又不知道。其实只是当时没有完全搞懂而已。</p>
-<p>再者，知识是有一个遗忘周期的，一定要顶起复习。</p>
-
-          
         
       
     </div>
