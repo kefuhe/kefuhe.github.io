@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-20T03:08:25.835Z</updated>
+  <updated>2018-08-01T07:27:24.685Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python中将字符串变成作为变量名的方法</title>
+    <link href="http://yoursite.com/2018/08/01/python%E4%B8%AD%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E6%88%90%E4%BD%9C%E4%B8%BA%E5%8F%98%E9%87%8F%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/08/01/python中将字符串变成作为变量名的方法/</id>
+    <published>2018-08-01T07:15:25.000Z</published>
+    <updated>2018-08-01T07:27:24.685Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-使用exec函数&quot;&gt;&lt;a href=&quot;#1-使用exec函数&quot; class=&quot;headerlink&quot; title=&quot;1. 使用exec函数&quot;&gt;&lt;/a&gt;1. 使用exec函数&lt;/h1&gt;&lt;p&gt;python 3：&lt;br&gt;exec 被当成一个函数
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+      <category term="变量命名" scheme="http://yoursite.com/tags/%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构绪论</title>
+    <link href="http://yoursite.com/2018/07/31/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%BB%AA%E8%AE%BA/"/>
+    <id>http://yoursite.com/2018/07/31/数据结构绪论/</id>
+    <published>2018-07-31T02:27:25.000Z</published>
+    <updated>2018-07-31T07:15:25.662Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-基本概念和术语&quot;&gt;&lt;a href=&quot;#1-基本概念和术语&quot; class=&quot;headerlink&quot; title=&quot;1. 基本概念和术语&quot;&gt;&lt;/a&gt;1. 基本概念和术语&lt;/h1&gt;&lt;h2 id=&quot;数据&quot;&gt;&lt;a href=&quot;#数据&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="大话数据结构" scheme="http://yoursite.com/categories/%E5%A4%A7%E8%AF%9D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>编程相关概念解惑</title>
@@ -42,6 +96,34 @@
     
     
       <category term="编程概念" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习态度</title>
+    <link href="http://yoursite.com/2018/07/20/%E5%AD%A6%E4%B9%A0%E6%80%81%E5%BA%A6/"/>
+    <id>http://yoursite.com/2018/07/20/学习态度/</id>
+    <published>2018-07-20T02:27:25.000Z</published>
+    <updated>2018-07-23T03:43:49.725Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-学习心态&quot;&gt;&lt;a href=&quot;#1-学习心态&quot; class=&quot;headerlink&quot; title=&quot;1. 学习心态&quot;&gt;&lt;/a&gt;1.
+        
+      
+    
+    </summary>
+    
+      <category term="学习闲谈" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E9%97%B2%E8%B0%88/"/>
+    
+    
+      <category term="闲谈" scheme="http://yoursite.com/tags/%E9%97%B2%E8%B0%88/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
