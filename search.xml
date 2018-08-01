@@ -13,6 +13,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[python用字符串导入库和函数]]></title>
+    <url>%2F2018%2F08%2F01%2Fpython%E7%94%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AF%BC%E5%85%A5%E5%BA%93%E5%92%8C%E5%87%BD%E6%95%B0%2F</url>
+    <content type="text"><![CDATA[使用import()函数导入12345inp=input('moudulus: ')d= __import__(inp)inp_func=input('func name: ')tfun=getattr(inp,inp_func)tfun() hasattr(modulus,funcname)模块中有没有这个函数 setattr(modulus,funname,lambda )创建全局变量或者函数 delattr(modulus,funcname)删除 参考链接[1] https://www.cnblogs.com/ezway/p/6609544.html]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>导入库</tag>
+        <tag>导入函数</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[数据结构绪论]]></title>
     <url>%2F2018%2F07%2F31%2F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%BB%AA%E8%AE%BA%2F</url>
     <content type="text"><![CDATA[1. 基本概念和术语数据 数据:&emsp;是描述客观事物的符号，是计算机中可以操作的对象，是能被计算机识别，并输入给计算机处理的符号集合具备如下特征： 可以输入到计算机中 能被计算机程序处理 数据可分为两类： 数值类型&emsp;整型、实型等，可以进行数值计算 字符类型&emsp;进行非数值的处理。而声音、图像、视频等其实是可以编码成字符数据来处理的 2. 算法算法的特性算法具有5个基本特性：输入、输出、有穷性、确定性和可行性。 1.输入输出&emsp;&emsp; - 算法具有零个或多个输入&emsp;&emsp; - 算法至少有一个或多个输出，输出形式可以是打印输出，也可以是返回一个或多个值等，或者改变全局变量（算返回变量）2.有穷性3.确定性&emsp;&emsp; - 每一个步骤有确定的含义&emsp;&emsp; - 相同的输入获得唯一的输出结果4.可行性 算法设计的要求1.正确性2.可读性3.健壮性4.时间效率高和存储量低 3. 算法效率的度量方法如1+2+3+]]></content>
