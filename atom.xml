@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-01T08:11:02.340Z</updated>
+  <updated>2018-08-01T08:25:11.549Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,13 @@
     <link href="http://yoursite.com/2018/08/01/python%E4%B8%AD%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E6%88%90%E4%BD%9C%E4%B8%BA%E5%8F%98%E9%87%8F%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/"/>
     <id>http://yoursite.com/2018/08/01/python中将字符串变成作为变量名的方法/</id>
     <published>2018-08-01T07:15:25.000Z</published>
-    <updated>2018-08-01T08:11:02.340Z</updated>
+    <updated>2018-08-01T08:25:11.549Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;使用exec函数&quot;&gt;&lt;a href=&quot;#使用exec函数&quot; class=&quot;headerlink&quot; title=&quot;使用exec函数&quot;&gt;&lt;/a&gt;使用exec函数&lt;/h1&gt;&lt;p&gt;python 3：&lt;br&gt;exec 被当成一个函数
-        
-      
+      &lt;h1 id=&quot;使用exec函数&quot;&gt;&lt;a href=&quot;#使用exec函数&quot; class=&quot;headerlink&quot; title=&quot;使用exec函数&quot;&gt;&lt;/a&gt;使用exec函数&lt;/h1&gt;&lt;p&gt;python 3：&lt;br&gt;exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;x = &lt;span class=&quot;string&quot;&gt;&#39;buf&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;exec(&lt;span class=&quot;string&quot;&gt;&quot;%s = %d&quot;&lt;/span&gt; % (x, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;foo = &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;exec(foo + &lt;span class=&quot;string&quot;&gt;&quot; = &#39;something else&#39;&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; bar&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;something &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -49,17 +45,14 @@
     <link href="http://yoursite.com/2018/08/01/python%E7%94%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AF%BC%E5%85%A5%E5%BA%93%E5%92%8C%E5%87%BD%E6%95%B0/"/>
     <id>http://yoursite.com/2018/08/01/python用字符串导入库和函数/</id>
     <published>2018-08-01T07:15:25.000Z</published>
-    <updated>2018-08-01T08:23:14.012Z</updated>
+    <updated>2018-08-01T08:25:33.474Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;使用import-函数导入&quot;&gt;&lt;a href=&quot;#使用import-函数导入&quot; class=&quot;headerlink&quot; title=&quot;使用import()函数导入&quot;&gt;&lt;/a&gt;使用&lt;strong&gt;import&lt;/strong&gt;()函数导入&lt;/h1&gt;&lt;figure
-        
-      
+      &lt;h1 id=&quot;使用import-函数导入&quot;&gt;&lt;a href=&quot;#使用import-函数导入&quot; class=&quot;headerlink&quot; title=&quot;使用import()函数导入&quot;&gt;&lt;/a&gt;使用&lt;strong&gt;import&lt;/strong&gt;()函数导入&lt;/h1&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;inp=input(&lt;span class=&quot;string&quot;&gt;&#39;moudulus: &#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;d= __import__(inp)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;inp_func=input(&lt;span class=&quot;string&quot;&gt;&#39;func name: &#39;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tfun=getattr(inp,inp_func)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tfun()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;hasattr(modulus,funcname)模块中有没有这个函数&lt;/p&gt;
+&lt;p&gt;setattr(modulus,funname,lambda )创建全局变量或者函数&lt;/p&gt;
+&lt;p&gt;delattr(modulus,funcname)删除&lt;br&gt;
     
     </summary>
     
@@ -79,17 +72,22 @@
     <link href="http://yoursite.com/2018/07/31/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%BB%AA%E8%AE%BA/"/>
     <id>http://yoursite.com/2018/07/31/数据结构绪论/</id>
     <published>2018-07-31T02:27:25.000Z</published>
-    <updated>2018-07-31T07:15:25.662Z</updated>
+    <updated>2018-08-01T08:24:59.704Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;1-基本概念和术语&quot;&gt;&lt;a href=&quot;#1-基本概念和术语&quot; class=&quot;headerlink&quot; title=&quot;1. 基本概念和术语&quot;&gt;&lt;/a&gt;1. 基本概念和术语&lt;/h1&gt;&lt;h2 id=&quot;数据&quot;&gt;&lt;a href=&quot;#数据&quot;
-        
-      
+      &lt;h1 id=&quot;1-基本概念和术语&quot;&gt;&lt;a href=&quot;#1-基本概念和术语&quot; class=&quot;headerlink&quot; title=&quot;1. 基本概念和术语&quot;&gt;&lt;/a&gt;1. 基本概念和术语&lt;/h1&gt;&lt;h2 id=&quot;数据&quot;&gt;&lt;a href=&quot;#数据&quot; class=&quot;headerlink&quot; title=&quot;数据&quot;&gt;&lt;/a&gt;数据&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;数据:&lt;/strong&gt;&amp;emsp;是描述客观事物的&lt;em&gt;符号&lt;/em&gt;，是计算机中&lt;em&gt;可以操作的对象&lt;/em&gt;，是能被计算机识别，并输入给计算机处理的符号集合&lt;br&gt;具备如下特征：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以输入到计算机中&lt;/li&gt;
+&lt;li&gt;能被计算机程序处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;数据可分为两类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;数值类型&lt;/strong&gt;&amp;emsp;整型、实型等，可以进行数值计算&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;字符类型&lt;/strong&gt;&amp;emsp;进行非数值的处理。而声音、图像、视频等其实是可以编码成字符数据来处理的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
