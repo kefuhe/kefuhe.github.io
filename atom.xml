@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-01T08:27:46.884Z</updated>
+  <updated>2018-08-13T08:11:18.516Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,26 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>python中将字符串变成作为变量名的方法</title>
-    <link href="http://yoursite.com/2018/08/01/python%E4%B8%AD%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E6%88%90%E4%BD%9C%E4%B8%BA%E5%8F%98%E9%87%8F%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://yoursite.com/2018/08/01/python中将字符串变成作为变量名的方法/</id>
-    <published>2018-08-01T07:15:25.000Z</published>
-    <updated>2018-08-01T08:27:46.884Z</updated>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/08/13/python%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E5%B1%9E%E6%80%A7%E5%85%B3%E7%B3%BB/"/>
+    <id>http://yoursite.com/2018/08/13/python类和对象之间属性关系/</id>
+    <published>2018-08-13T09:46:25.000Z</published>
+    <updated>2018-08-13T08:11:18.516Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;使用exec函数&quot;&gt;&lt;a href=&quot;#使用exec函数&quot; class=&quot;headerlink&quot; title=&quot;使用exec函数&quot;&gt;&lt;/a&gt;使用exec函数&lt;/h1&gt;&lt;p&gt;python 3：&lt;br&gt;exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;x = &lt;span class=&quot;string&quot;&gt;&#39;buf&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;exec(&lt;span class=&quot;string&quot;&gt;&quot;%s = %d&quot;&lt;/span&gt; % (x, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;foo = &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;exec(foo + &lt;span class=&quot;string&quot;&gt;&quot; = &#39;something else&#39;&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; bar&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;something &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
     
     </summary>
     
       <category term="python" scheme="http://yoursite.com/categories/python/"/>
     
     
-      <category term="变量命名" scheme="http://yoursite.com/tags/%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D/"/>
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="命名空间" scheme="http://yoursite.com/tags/%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4/"/>
     
   </entry>
   
@@ -59,11 +61,35 @@
       <category term="python" scheme="http://yoursite.com/categories/python/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
       <category term="导入库" scheme="http://yoursite.com/tags/%E5%AF%BC%E5%85%A5%E5%BA%93/"/>
     
       <category term="导入函数" scheme="http://yoursite.com/tags/%E5%AF%BC%E5%85%A5%E5%87%BD%E6%95%B0/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python中将字符串变成作为变量名的方法</title>
+    <link href="http://yoursite.com/2018/08/01/python%E4%B8%AD%E5%B0%86%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E6%88%90%E4%BD%9C%E4%B8%BA%E5%8F%98%E9%87%8F%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/08/01/python中将字符串变成作为变量名的方法/</id>
+    <published>2018-08-01T07:15:25.000Z</published>
+    <updated>2018-08-01T08:27:46.884Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;使用exec函数&quot;&gt;&lt;a href=&quot;#使用exec函数&quot; class=&quot;headerlink&quot; title=&quot;使用exec函数&quot;&gt;&lt;/a&gt;使用exec函数&lt;/h1&gt;&lt;p&gt;python 3：&lt;br&gt;exec 被当成一个函数 ，可以通过以下的方法来进行将字符串变成变量的名字进行赋值&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;x = &lt;span class=&quot;string&quot;&gt;&#39;buf&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;exec(&lt;span class=&quot;string&quot;&gt;&quot;%s = %d&quot;&lt;/span&gt; % (x, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;))&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;foo = &lt;span class=&quot;string&quot;&gt;&quot;bar&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;exec(foo + &lt;span class=&quot;string&quot;&gt;&quot; = &#39;something else&#39;&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;keyword&quot;&gt;print&lt;/span&gt; bar&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;something &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="变量命名" scheme="http://yoursite.com/tags/%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D/"/>
     
   </entry>
   
@@ -137,6 +163,34 @@
   </entry>
   
   <entry>
+    <title>学习态度</title>
+    <link href="http://yoursite.com/2018/07/20/%E5%AD%A6%E4%B9%A0%E6%80%81%E5%BA%A6/"/>
+    <id>http://yoursite.com/2018/07/20/学习态度/</id>
+    <published>2018-07-20T02:27:25.000Z</published>
+    <updated>2018-07-23T03:43:49.725Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-学习心态&quot;&gt;&lt;a href=&quot;#1-学习心态&quot; class=&quot;headerlink&quot; title=&quot;1. 学习心态&quot;&gt;&lt;/a&gt;1.
+        
+      
+    
+    </summary>
+    
+      <category term="学习闲谈" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E9%97%B2%E8%B0%88/"/>
+    
+    
+      <category term="闲谈" scheme="http://yoursite.com/tags/%E9%97%B2%E8%B0%88/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>编程相关概念解惑</title>
     <link href="http://yoursite.com/2018/07/20/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E8%A7%A3%E6%83%91/"/>
     <id>http://yoursite.com/2018/07/20/编程相关概念解惑/</id>
@@ -162,34 +216,6 @@
     
     
       <category term="编程概念" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B%E6%A6%82%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习态度</title>
-    <link href="http://yoursite.com/2018/07/20/%E5%AD%A6%E4%B9%A0%E6%80%81%E5%BA%A6/"/>
-    <id>http://yoursite.com/2018/07/20/学习态度/</id>
-    <published>2018-07-20T02:27:25.000Z</published>
-    <updated>2018-07-23T03:43:49.725Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;1-学习心态&quot;&gt;&lt;a href=&quot;#1-学习心态&quot; class=&quot;headerlink&quot; title=&quot;1. 学习心态&quot;&gt;&lt;/a&gt;1.
-        
-      
-    
-    </summary>
-    
-      <category term="学习闲谈" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E9%97%B2%E8%B0%88/"/>
-    
-    
-      <category term="闲谈" scheme="http://yoursite.com/tags/%E9%97%B2%E8%B0%88/"/>
-    
-      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
